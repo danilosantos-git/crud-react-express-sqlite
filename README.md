@@ -16,19 +16,20 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida
 
 ## Estrutura do Projeto
 
+```
 crud-react-express-sqlite/
-├── frontend/ # Código do frontend
-│ ├── public/ # Arquivos públicos
-│ ├── src/ # Código-fonte da aplicação React
-│ ├── .gitignore # Arquivo para ignorar arquivos no Git
-│ └── package.json # Dependências do frontend
-└── api/ # Código do backend
-├── controllers/ # Controladores para gerenciar a lógica de negócios
-├── routes/ # Rotas da API
-├── db.js # Configuração do banco de dados SQLite
-├── .gitignore # Arquivo para ignorar arquivos no Git
-└── package.json # Dependências do backend
-
+├── frontend/                # Código do frontend
+│   ├── public/              # Arquivos públicos
+│   ├── src/                 # Código-fonte da aplicação React
+│   ├── .gitignore           # Arquivo para ignorar arquivos no Git
+│   └── package.json         # Dependências do frontend
+└── api/                     # Código do backend
+    ├── controllers/         # Controladores para gerenciar a lógica de negócios
+    ├── routes/              # Rotas da API
+    ├── db.js                # Configuração do banco de dados SQLite
+    ├── .gitignore           # Arquivo para ignorar arquivos no Git
+    └── package.json         # Dependências do backend
+```
 ## Como Executar o Projeto
 
 ### Pré-requisitos
